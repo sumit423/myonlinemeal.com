@@ -1,0 +1,247 @@
+/* CSS RESET */
+ *{
+    margin: 0%;
+    padding: 0%;
+}
+/* css varible */
+
+:root{
+    --navbar-height: 59px;
+}
+/* navigation bar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    overflow: hidden;
+}
+/* logo and img */
+#logo{
+    margin: 16px 39px;
+}
+#logo img{
+    height: 70px;
+    width: 70px;
+    margin: 4px 9px;
+}
+/* listing style in navbar */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(128, 146, 142);
+    color: black;
+    position: absolute;
+    height: 100%;
+    width: 262%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+#navbar ul li a{
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: rgb(119, 187, 176);
+    
+           
+}
+/* home section  */
+#HOME{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 50px;
+    height: 660px;
+    justify-content: center;
+    align-items: center;
+}
+#HOME::before{
+    content: "";
+    background: url('img/bb3.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+    top: 0%;
+}
+#HOME h1{
+    
+    text-align: center;
+    font-family: 'Reggae One', cursive;
+}
+#HOME P{
+    font-size: 1.5rem;
+    font-family: 'Reggae One', cursive;
+}
+
+/* service section */
+
+#services{
+    display: flex;
+    margin: 34px;
+}
+#services .box{
+    border: 2px solid red;
+    padding: 34px;
+    margin: 25px 45px;
+    border-radius: 20px;
+    background-color: lightgray;
+
+}
+#services .box img{
+    height: 200px;
+    display: block;
+    margin: auto;
+
+
+}
+#services .box p{
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+}
+
+/* Clients section */
+#client-section{
+    position: relative;
+   
+   
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('img/bb4.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .5;
+    
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 150px;
+    margin: 40px;
+}
+.clientsitems{
+    padding: 40px;
+}
+
+/* contact section */
+
+#contact{
+    position: relative;
+}
+
+#contact::before{
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+          opacity: .5;
+          background: url('img/cont1.png') no-repeat center center/cover;
+}
+#contactbox{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-bottom: 40px;
+          
+}
+
+#contactbox input,
+#contactbox textarea{
+        width: 100%;
+        font-size: 1.0rem;
+        border-radius: 8px;
+        padding: 15px;
+}
+#contactbox form{
+    width: 40%;
+}
+#contactbox label{
+    font-size: 1.7rem;
+    font-family: 'Reggae One', cursive;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* utility classes */
+.h-primary{
+    font-size: 3.8rem;
+    padding: 15px;
+    font-family: 'Reggae One', cursive;
+}
+.h-secondary{
+    font-size: 2.1rem;
+    padding: 15px;
+    font-family: 'Reggae One', cursive;
+}
+.btn{
+    padding: 5px 25px;
+    border: 2px solid white;
+    background-color: greenyellow;
+    margin: 15px 15px;
+    font-size: 1.9rem;
+     border-radius:12px ;
+     cursor: pointer;
+     
+     
+}
+.btn:hover{
+    background-color: white;
+    opacity: .5;
+    
+}
+.center{
+    text-align: center;
+}
+.btn1{
+    border: 2px solid white;
+    background-color: greenyellow;
+    width: 25%;
+    margin:  3px auto;
+    font-size: 1.9rem;
+     border-radius:12px ;
+     cursor: pointer;
+     display: flex;
+}
+.btn1:hover{
+    background-color: white;
+    opacity: .5;
+}
+

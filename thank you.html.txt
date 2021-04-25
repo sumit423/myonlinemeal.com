@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THANK YOU</title>
+</head>
+<style>
+    body{
+        background-image: url('img/bcg7.jpg');
+        background-size: 90%;
+    }
+      .jumbotron h1{
+          /* border: 2px solid red; */
+          font-size: 3.0rem;
+          width: 50%;
+          margin-left:30%;
+          margin-top: 13%;
+          color: rgb(157, 255, 0);
+      }
+      .jumbotron p{
+           /* border: 2px solid red;  */
+           width: 60%;
+           color: rgb(231, 154, 154);
+           margin: auto;
+           font-size: 2.5rem;
+           margin-top: 10%;
+      }
+       .jumbotron button{
+          background-color: greenyellow;
+          font-size: 1.5rem;
+          width: 13%;
+          margin-left: 66%;
+      }
+      .jumbotron button:hover{
+          background-color: black;
+          color: blanchedalmond;
+      }
+    /* #map{
+        height: 500px;
+        width: 100%;
+    } */
+</style>
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">THANK YOU FOR Ordering</h1>
+        <p class="lead"></p>
+        <!-- <hr class="my-4"> -->
+        <a href="map.html"><button class="btn1">food location</button></a>
+        <p>YOUR ORDER REACH  YOU WITH IN  20 MINUTE</p>
+      </div>
+
+      <!-- <div id="map"></div>
+
+      <script>
+            function initMap(){
+                var location ={lat: -25.135, lng: 125.567};
+                var map = new google.maps.Map(document.getElementById("map"),{
+                zoom: 4,
+                center:location
+
+                });
+            }
+        
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHLR0ydshl2x2-zghTltOx-HaB4CnyGF4&callback=initMap">
+
+      </script> -->
+</body>
+</html>

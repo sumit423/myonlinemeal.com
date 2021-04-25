@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width:1050px)" href="phone.css">
+    <title>Best online food delivery|myonlinemeal.com</title>
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/food-logo.png" alt="myonlinemeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#HOME">HOME</a></li>
+            <li class="item"><a href="#services-container">SERVICES</a></li>
+            <li class="item"><a href="#client-section">CLIENTS</a></li>
+            <li class="item"><a href="#contact">CONTACT US</a></li>
+
+        </ul>
+    </nav>
+    <section id="HOME">
+        <h1 class="h-primary">Welcome to myonlinemeal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laboriosam labore illo minima mollitia in?
+        </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <a href="thanku.html"><button class="btn">Order now</button></a>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/pic1.jpg" alt="">
+                <h2 class="h-secondary center"> Bulk Ordering</h2>
+                <P class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis velit dolorem
+                    voluptatibus magni consequatur! Ad, officia labore! A ratione exercitationem quasi eaque quas saepe
+                    sequi repellat odit, ducimus incidunt facere corporis, eos, quos
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum perspiciatis error, numquam eos necessitatibus veniam consequatur deserunt quisquam, provident incidunt voluptate voluptas cum.</P>
+                </div>
+            <div class="box">
+                <img src="img/pic2.jpg" alt="">
+                <h2 class="h-secondary center"> Food Catring</h2>
+                <P class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis velit dolorem
+                    voluptatibus magni consequatur! Ad, officia labore! A ratione exercitationem quasi eaque quas saepe
+                    sequi repellat odit, ducimus incidunt facere corporis, eos, quos
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus repellendus praesentium consectetur libero quod asperiores laboriosam explicabo ratione, amet est, aspernatur illo nobis.</P>
+            </div>
+            <div class="box">
+                <img src="img/pic4.png" alt="">
+                <h2 class="h-secondary center"> Food delivery</h2>
+                <P class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis velit dolorem
+                    voluptatibus magni consequatur! Ad, officia labore! A ratione exercitationem quasi eaque quas saepe
+                    sequi repellat odit, ducimus incidunt facere corporis, eos, quos
+                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores nihil eaque quaerat quos suscipit quae ad animi consectetur? Dolore hic consequuntur obcaecati. Suscipit.</P>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center"> Our Clients</h1>
+        <div id="clients">
+            <div class="clientsitems">
+                <img src="img/apple-logo1.png" alt="Our clients">
+            </div>
+            <div class="clientsitems">
+                <img src="img/logo g.png" alt="Our clients">
+            </div>
+            <div class="clientsitems">
+                <img src="img/logo mcd.png" alt="Our clients">
+            </div>
+            <div class="clientsitems">
+                <img src="img/logo coc.png" alt="Our clients">
+            </div>
+            <div class="clientsitems">
+                <img src="img/logo am.png" alt="Our clients">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contactbox">
+         <form action="">
+            <div class="formgroup">
+                <label for="Name">Name:</label>
+                <input type="text" Name="name" id="name" placeholder="Enter Your Name">
+            </div>
+            <div class="formgroup">
+                <label for="Email">Email:</label>
+                <input type="text" Name="Email" id="Email" placeholder="Enter Your Email">
+            </div>
+            <div class="formgroup">
+                <label for="mobile no.">Mobile no.:</label>
+                <input type="text" Name="Mobile no." id="Mobile no." placeholder="Enter Your Mobile no.">
+            </div>
+            <div class="formgroup">
+                <label for="Name">Message:</label>
+                <textarea name="Message" id="Message" cols="30" rows="10">Type a Message</textarea>
+            </div>
+            <button class="btn1">request send</button>
+        
+
+         </form>     
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            copyright &copy; www.myonlinemeal.com All rights Reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
